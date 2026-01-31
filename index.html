@@ -1,0 +1,79 @@
+<style>
+    body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("https://auth.services.adobe.com/img/canvas/Fotolia_227313925_XL.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* top center alignment */
+        padding-top: 40px;       /* space from top */
+    }
+
+    .container {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 40px 50px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        width: 100%;
+    }
+
+    /* LOGO + TEXT ALIGNMENT */
+    .logo-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .logo-row img {
+        width: 80px;
+        height: auto;
+    }
+
+    .logo-text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #B30B00;
+        white-space: nowrap;
+    }
+
+    h1 {
+        margin: 0 0 20px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .view-btn {
+        margin-top: 10px;
+        padding: 12px 28px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        background-color: #1a73e8;
+        color: #ffffff;
+    }
+
+    .view-btn:hover {
+        background-color: #1558b0;
+    }
+</style>
+
+<div class="container">
+    <div class="logo-row">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpO41NG2vcOhrxulZ8GAbWOi2WTFhLkq5XCA&s" alt="Adobe, Inc.">
+        <span class="logo-text">Adobe Acrobat Reader</span>
+    </div>
+
+    <h1>Protected File</h1>
+
+    <button class="view-btn">View File</button>
+</div>
